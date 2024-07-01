@@ -6,72 +6,83 @@
     <title>Juustukook - Lisete retseptiblogi</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #ffe5ec;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f4f1ea;
             margin: 0;
             padding: 0;
+            color: #4b3832;
         }
 
+        /* Header Styles */
         header {
-            background-color: #a94064;
+            background-color: #8c4a2f;
             color: #fff;
             text-align: center;
-            padding: 20px;
+            padding: 30px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
-            font-size: 36px;
-			font-family:'Comic Sans MS';
+            font-size: 42px;
             margin: 0;
+            font-family: 'Pacifico', cursive;
         }
-		
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+            font-family: 'Verdana', sans-serif;
+        }
+
         nav {
-            background-color: #ffb6c1;
+            background-color: #a67c68;
         }
+
         nav ul {
-			font-family: 'Comic Sans MS';
+            font-family: 'Comic Sans MS';
             list-style: none;
             padding: 0;
             margin: 0;
             display: flex;
             justify-content: center;
         }
+
         nav li {
             margin: 10px 20px;
         }
+
         nav a {
             text-decoration: none;
-            color: #000;
+            color: #fff;
         }
 
         .container {
             max-width: 800px;
-            margin: 0 auto;
+            margin: 20px auto;
             padding: 20px;
-            background-color: #ffe4b5;
+            background-color: #e6ccb2;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-			display: flex;
-			flex-direction: column;
-			align-items: center; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         .recipe {
-			font-family: 'Comic Sans MS';
+            font-family: 'Comic Sans MS';
             margin: 20px 0;
             padding: 20px;
-            background-color: #ffefd5;
+            background-color: #f5e6d3;
             border: 1px solid #ddd;
             border-radius: 5px;
-			display: inline-block;
-			text-align: center;
-			width: 100%;
-			max-width: 700px;
+            text-align: center;
+            width: 100%;
+            max-width: 700px;
         }
 
         .recipe h2 {
             font-size: 24px;
-			color: #a94064;
+            color: #5a3e36;
         }
 
         .recipe p {
@@ -80,104 +91,122 @@
         }
 
         .recipe img {
-            max-width: 100%;
+            max-width: 80%;
             border-radius: 5px;
         }
 
         .recipe-button {
-            background-color: #ffb6c1;
-            color: #000;
+            background-color: #a67c68;
+            color: #fff;
             padding: 10px 20px;
             text-decoration: none;
             border-radius: 5px;
             display: inline-block;
+            transition: background-color 0.3s ease;
         }
 
         .recipe-button:hover {
-            background-color: #db7093;
+            background-color: #5a3e36;
         }
-		.center {
-		  margin-left: auto;
-		  margin-right: auto;
-		}
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #a67c68;
+            color: #fff;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Lisete retseptiblogi</h1>
-		<p style="font-family:'Verdana'">r o a s t o . e e</p>
-	</header>
-	<nav>
+    </header>
+
+    <nav>
         <ul>
             <li><a href="https://l1s3t3.github.io/">Avaleht</a></li>
             <li><a href="https://l1s3t3.github.io/blogi/">Blogi</a></li>
             <li><a href="https://l1s3t3.github.io/galerii/">Galerii</a></li>
-		</ul>
+        </ul>
     </nav>
+
     <div class="container">
-		<div class="recipe">
-		<a href="https://l1s3t3.github.io/" class="recipe-button">Tagasi avalehele</a>
-		<p><h1 style="color:#a94064">Juustukook</h1></p>
-        <img src="juustukook.jpg" alt="Juustukook" width="302.4" height="403.2">
-		<p><b>Vaja läheb:</b></p>
-		<table border="1px" class="center">
-		  <tr>
-			<th>Toiduaine</th>
-			<th>Kogus</th>
-		  </tr>
-		  <tr>
-			<td><center>#</td>
-			<td><center>#</td>
-		  </tr>
-		  <tr>
-			<td><center>#</td>
-			<td><center>#</td>
-		  </tr>
-		  <tr>
-			<td><center>#</td>
-			<td><center>#</td>
-		  </tr>
-		  <tr>
-			<td><center>#</td>
-			<td><center>#</td>
-		  </tr>
-		  <tr>
-			<td><center>#</td>
-			<td><center>#</td>
-		  </tr>
-		  <tr>
-			<td><center>#</td>
-			<td><center>#</td>
-		  </tr>
-		  <tr>
-			<td><center>#</td>
-			<td><center>#</td>
-		  </tr>
-		  <tr>
-			<td><center>#</td>
-			<td><center>#</td>
-		  </tr>
-		  <tr>
-			<td><center>#</td>
-			<td><center>#</td>
-		  </tr>
-		  <tr>
-			<td><center>#</td>
-			<td><center>#</td>
-		  </tr>
-		  <tr>
-			<td><center>#</td>
-			<td><center>#</td>
-		  </tr>
-		  <tr>
-			<td><center>#</td>
-			<td><center>#</td>
-		  </tr>
-		</table>
-		<p><b>Valmistamine:</b></p>
-		<p>###</p>
-		<h2>Head isu!</h2>
-		</div>
+        <div class="recipe">
+            <a href="https://l1s3t3.github.io/" class="recipe-button">Tagasi avalehele</a>
+            <h2>Karamelline juustukook</h2>
+            <img src="juustukook.jpg" alt="Juustukook">
+            <p><b>Vaja läheb:</b></p>
+            <table>
+                <tr>
+                    <th>Toiduaine</th>
+                    <th>Kogus</th>
+                </tr>
+                <tr>
+                    <td>Kondentspiima</td>
+                    <td>300g</td>
+                </tr>
+                <tr>
+                    <td>Toorjuustu</td>
+                    <td>400g</td>
+                </tr>
+                <tr>
+                    <td>Digestive küpsiseid</td>
+                    <td>170g</td>
+                </tr>
+                <tr>
+                    <td>Võid</td>
+                    <td>70g</td>
+                </tr>
+                <tr>
+                    <td>Soola</td>
+                    <td>0,5tl</td>
+                </tr>
+                <tr>
+                    <td>Vaniljesuhkrut</td>
+                    <td>1tl</td>
+                </tr>
+                <tr>
+                    <td>Karamellikondentspiima</td>
+                    <td>1 purk</td>
+                </tr>
+                <tr>
+                    <td>Munad</td>
+                    <td>3tk</td>
+                </tr>
+                <tr>
+                    <td>Kinderi šokolaadi</td>
+                    <td>100g</td>
+                </tr>
+            </table>
+            <p><b>Valmistamine:</b></p>
+            <p>Sega omavahel kõik kuivained.<br>
+            Klopi lahti munad.<br>
+            Sega munad ja sulavõi kuivade ainetega.<br>
+            Vajuta banaanid kahvliga katki.<br>
+            Ei ole tarvis teha püreed, võib jääda kergelt tükiline.<br>
+            Sega banaanid tainasse.<br>
+            Lisa šokolaad.<br>
+            Vooderda keeksivorm.<br>
+            Vala tainas vormi.<br>
+            Küpseta 170 kraadi juures 1 tund, kuni keeksil on pruun koorik ja puutikuga küpsust proovides tuleb tikk keeksist puhtalt välja.<br>
+            Lase 10 minutit vormis jahtuda, kummuta välja.</p>
+            <h2>Head isu!</h2>
+        </div>
     </div>
 </body>
 </html>
